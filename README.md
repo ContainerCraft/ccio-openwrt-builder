@@ -9,6 +9,6 @@ lxc image import /tmp/openwrt/openwrt-19.07.2-x86-64-lxd.tar.gz --alias openwrt/
 ```
 
 ###### Refrence:
-[ccio-openwrt](https://github.com/containercraft/ccio-openwrt)
-[OpenWRT Releases](https://openwrt.org/releases/start)
-[Podman.io](https://podman.io/getting-started/installation)
+[ccio-openwrt](https://github.com/containercraft/ccio-openwrt)    
+[OpenWRT Releases](https://openwrt.org/releases/start)    
+[Podman.io](https://podman.io/getting-started/installation)    
