@@ -24,7 +24,7 @@ jobs:
     - name: Docker Tag Latest
       run: |
         docker tag ${{ secrets.DOCKERHUB_ORGANIZATION  }}/ccio-openwrt-builder:latest ${{ secrets.DOCKERHUB_ORGANIZATION  }}/ccio-openwrt-builder
-    - name: Docker Tag OCP Version
+    - name: Docker Tag OpenWRT Version
       run: |
         docker tag ${{ secrets.DOCKERHUB_ORGANIZATION  }}/ccio-openwrt-builder:latest ${{ secrets.DOCKERHUB_ORGANIZATION  }}/ccio-openwrt-builder:${{ env.openwrtVers }}
     - name: Docker Push docker.io
