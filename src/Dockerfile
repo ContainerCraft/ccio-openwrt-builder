@@ -22,10 +22,11 @@ ARG pkgList="\
              python2.7\
             "
 
-RUN apt update \
+RUN set -ex \
+     && apt update \
      && apt-get install -y --no-install-recommends ${pkgList} \
      && git init
 
-COPY src/entrypoint /root/
+COPY src/entrypoint /root/entrypoint
 
 ENTRYPOINT ["./entrypoint.sh"]
