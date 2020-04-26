@@ -1,7 +1,7 @@
 # [ccio-openwrt-builder](https://hub.docker.com/r/containercraft/ccio-openwrt-builder)
 Builder image for ccio-openwrt lxd image
 
-###### Example Usage with [OpenWRT 19.07.2]:
+###### Example Usage with [OpenWRT 19.07.2]
 ```
 mkdir /tmp/openwrt
 sudo podman run --rm -it --privileged --volume /tmp/openwrt:/root/bin:z containercraft/ccio-openwrt-builder:19.07.2
