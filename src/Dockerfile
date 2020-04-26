@@ -23,7 +23,7 @@ ARG pkgList="\
             "
 
 RUN set -ex \
-     && apt update \
+     && apt-get update \
      && apt-get install -y --no-install-recommends ${pkgList} \
      && git init
 
