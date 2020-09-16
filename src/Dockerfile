@@ -4,7 +4,7 @@ WORKDIR /root/
 
 ENV ORIGIN="https://github.com/containercraft/ccio-openwrt.git"
 ENV nameBranch="origin-merge"
-ENV openwrtVers="19.07.2"
+ENV openwrtVers="19.07.4"
 
 ARG pkgList="\
              git \
